@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes informations personnels</title>
+    <link rel="stylesheet" href="portefolio.css">
+    <style>
+        body {
+            margin:0;
+            font-family: Arial,sans-serif;
+            background: #f4f4f4;
+        }
+        header {
+            background: #222;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a{
+            color:white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero{
+            background: linear-gradient(135deg,#6a11cb,#2575fc);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .hero img {
+            width: 150px;      
+            height: 150px;    
+            object-fit: cover; 
+            border-radius: 50%;
+            margin-top: 20px;
+            border: 3px solid white; 
+            width: 130px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+        .section {
+            padding: 20px;
+            text-align: center;
+        }
+            .skills {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                flex-wrap: wrap;
+            }
+            .skill {
+                background:white;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                width: 130px;
+            }
+            footer {
+                background: #222;
+                color: white;
+                text-align: center;
+                padding: 15px;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Mon Portefolio</h2>
+        <nav>
+            <a href="#">Accueil</a>
+            <a href="#about">À propos</a>
+            <a href="#skills">Compétences</a>
+            <a href="#languages">Langues</a>
+            <a href="#hobbies">Centres d'intérêt</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div id="hero" class ="hero">
+        <img src="c:\Users\rakot\OneDrive\Desktop\Mon portefolio\Noemie.jpg.jpg">
+        <h1>RAKOTONDRAJAO Narindra Noëmie</h1>
+        <p>Etudiante en Informatique</p>
+    </div>
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>Je suis une étudiante en informatique,j'apprends la programmation et le développement web à l'université d'EMIT. Je suis née le 27 Septembre 2008 à Fianarantsoa , j'ai obtenu mon baccalauréat en 2025</p>
+    </section>
+    <section id="skills">
+        <h2>Compétences</h2>
+        <p>Voici quelques-unes de mes compétences techniques .</p>
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">Algorithmique</div>
+            <div class="skill">Python</div>
+        </div>
+    </section>
+    <section id="languages">
+        <h2>Langues</h2>
+        <p>Je parle couramment les langues suivantes .</p>
+        <div class="skills">
+            <div class="skill">Français</div>
+            <div class="skill">Anglais</div>
+            <div class="skill">Malagasy</div>
+        </div>
+    </section>
+    <section id="hobbies">
+        <h2>Centres d'intérêt</h2>
+        <p>Mes centres d'intêt sont les suivants .</p>
+        <div class="skills">
+            <div class="skill">Lecture</div>
+            <div class="skill">Voyage</div>
+            <div class="skill">Cuisine</div>
+            <div class="skill">Jeux vidéo</div>
+            <div class="skill">Photographie</div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email:noemierkt08@gmail.com</p>
+        <p>Téléphone: +261 34 27 880 13</p>
+        <p>Adresse: Fianarantsoa, Madagascar</p>
+    </section>
+    <footer>
+        <p>&copy; 2026 Mon Portefolio.</p>
+    </footer>
+</body>
+</html>
